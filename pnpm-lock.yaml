@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@dimforge/rapier3d-compat': ^0.11.2
   '@react-three/drei': ^9.61.1
   '@react-three/fiber': ^8.12.0
   '@react-three/rapier': ^0.14.0
@@ -15,6 +16,7 @@ specifiers:
   vite: ^4.2.0
 
 dependencies:
+  '@dimforge/rapier3d-compat': 0.11.2
   '@react-three/drei': 9.61.1_pruawcfdh2ohh6emo6j3xk6z7a
   '@react-three/fiber': 8.12.0_y35v3wwlskpbflngz2nyyvemtu
   '@react-three/rapier': 0.14.0_dgreq6o76cr4hh2bapdvxk4gua

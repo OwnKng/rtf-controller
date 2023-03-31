@@ -1,6 +1,6 @@
 import { OrbitControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { Physics, RigidBody } from "@react-three/rapier"
+import { Debug, Physics, RigidBody } from "@react-three/rapier"
 import { Suspense } from "react"
 import Player from "./Player"
 import { KeyboardControls } from "@react-three/drei"
@@ -19,6 +19,7 @@ function App() {
       >
         <Suspense fallback={null}>
           <Physics>
+            <Debug />
             <Player />
             <RigidBody position={[0, 0, 10]}>
               <mesh>
